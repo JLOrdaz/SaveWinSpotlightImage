@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ktw2OC2fiIeEMLibVYbVMDkagbAv7hLbOAGdEmmd+wRrt3xYKtozmM2jgS0dS7xmqmQfQHKUePCnqmMY1KkgOQ==",
+  "success": true,
+  "projectFilePath": "D:\\VSProjects\\SaveWSpotlightImage\\SaveWSpotlightImage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlord\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\jlord\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\jlord\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+D:\temp\SaveWSpotlightImage\bin\Debug\netcoreapp2.1\SaveWSpotlightImage.deps.json
+D:\temp\SaveWSpotlightImage\bin\Debug\netcoreapp2.1\SaveWSpotlightImage.runtimeconfig.json
+D:\temp\SaveWSpotlightImage\bin\Debug\netcoreapp2.1\SaveWSpotlightImage.runtimeconfig.dev.json
+D:\temp\SaveWSpotlightImage\bin\Debug\netcoreapp2.1\SaveWSpotlightImage.dll
+D:\temp\SaveWSpotlightImage\bin\Debug\netcoreapp2.1\SaveWSpotlightImage.pdb
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.csprojAssemblyReference.cache
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.csproj.CoreCompileInputs.cache
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.AssemblyInfoInputs.cache
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.AssemblyInfo.cs
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.dll
+D:\temp\SaveWSpotlightImage\obj\Debug\netcoreapp2.1\SaveWSpotlightImage.pdb
