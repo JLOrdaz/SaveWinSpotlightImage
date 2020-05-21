@@ -1,2 +1,2 @@
 # SaveWinSpotlightImage
-Save the images from Windows Spotlight
+Save the images from Windows 10 Sportlight
