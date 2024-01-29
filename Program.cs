@@ -23,15 +23,7 @@ if (args.Length > 0)
         {
             var image = System.Drawing.Image.FromFile(fileInfo.FullName);
 
-            if (image.Size.Width > image.Size.Height)
-            {
-                destino = Path.Combine(rutaDestino, "landscape", fileInfo.Name + ".jpg");
-            }
-            else
-            {
-                destino = Path.Combine(rutaDestino, "portrait", fileInfo.Name + ".jpg");
-            }
-
+            destino = Path.Combine(rutaDestino, image.Size.Width > image.Size.Height ? "landscape" : "portrait", fileInfo.Name + ".jpg");
 
             if (File.Exists(destino))
                 contarExistentes++;
@@ -42,7 +34,7 @@ if (args.Length > 0)
         }
     };
     Console.WriteLine();
-    Console.WriteLine(value: $"Found \n{contarNuevo} new files.. \n{contarExistentes} existing files..");
+    Console.WriteLine($"Found \n{contarNuevo} new files.. \n{contarExistentes} existing files..");
 }
 else
 {

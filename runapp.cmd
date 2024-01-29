@@ -1,1 +1,1 @@
-D:\VSProjects\SaveWSpotlightImage\bin\Release\net7.0-windows\win-x64\publish\SaveWSpotlightImage.exe D:\temp\SpotlightImages
+E:\VSProjects\SaveWSpotlightImage\bin\Release\net8.0-windows\win-x64\publish\SaveWSpotlightImage.exe D:\temp\SpotlightImages
