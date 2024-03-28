@@ -7,10 +7,12 @@ string[] archivos = System.IO.Directory.GetFiles(rutaFull);
 string destino;
 int contarNuevo = 0;
 int contarExistentes = 0;
+
 if (args.Length > 0)
 {
-    rutaDestino = args[0];
     Console.WriteLine("Starting...");
+
+    rutaDestino = args[0];
     ConfigureFolders();
 
     Console.WriteLine("Searching for files");
@@ -18,11 +20,10 @@ if (args.Length > 0)
     foreach (var item in archivos)
     {
         Console.Write(".");
-        FileInfo fileInfo = new FileInfo(item);
+        FileInfo fileInfo = new(item);
         if (fileInfo.Length > 100000)
         {
             var image = System.Drawing.Image.FromFile(fileInfo.FullName);
-
             destino = Path.Combine(rutaDestino, image.Size.Width > image.Size.Height ? "landscape" : "portrait", fileInfo.Name + ".jpg");
 
             if (File.Exists(destino))
@@ -43,14 +44,12 @@ else
     Console.ForegroundColor = ConsoleColor.White;
 }
 
-
 void ConfigureFolders()
 {
     if (!Directory.Exists(rutaDestino))
     {
         Console.WriteLine("Creating destination folder");
         Directory.CreateDirectory(rutaDestino);
-
         if (!Directory.Exists(Path.Combine(rutaDestino, "landscape")))
         {
             Console.WriteLine("Creating folder landscape");
@@ -58,9 +57,8 @@ void ConfigureFolders()
         }
         if (!Directory.Exists(Path.Combine(rutaDestino, "portrait")))
         {
-            Console.WriteLine("Creating folder landscape");
+            Console.WriteLine("Creating folder portrait");
             Directory.CreateDirectory(Path.Combine(rutaDestino, "portrait"));
         }
     }
-
 }
