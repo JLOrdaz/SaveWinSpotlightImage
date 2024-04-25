@@ -3,7 +3,7 @@ string rutaDestino;
 string ruta = @"%UserProfile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets";
 string rutaFull = Environment.ExpandEnvironmentVariables(ruta);
 
-string[] archivos = System.IO.Directory.GetFiles(rutaFull);
+string[] archivos = Directory.GetFiles(rutaFull);
 string destino;
 int contarNuevo = 0;
 int contarExistentes = 0;
